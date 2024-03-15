@@ -20,3 +20,8 @@ Once you have Python installed, Fast API can be installed with a simple pip comm
 ```
 pip install fastapi
 ```
+
+We will use pydantic to design our data scheme and simply pass in an object that will specify the data needed. This will make things much cleaner.
+```
+pip install pydantic
+```
