@@ -25,3 +25,7 @@ We will use pydantic to design our data scheme and simply pass in an object that
 ```
 pip install pydantic
 ```
+
+```
+pip install sqlalchemy
+```
