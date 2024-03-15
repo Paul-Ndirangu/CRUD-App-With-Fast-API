@@ -13,3 +13,9 @@ fakeDatabase = {
 def getItems(id:int):
     return fakeDatabase[id]
 
+@app.post("/")
+def addItem(task:str):
+    newId = len(fakeDatabase.keys()) + 1
+    fakeDatabase[newId] = {"task":task}
+    return fakeDatabase
+
